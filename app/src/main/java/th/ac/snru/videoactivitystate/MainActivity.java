@@ -22,7 +22,7 @@ private VideoView videoView;
     public void playVideo(){
         videoView = findViewById(R.id.videoView);
         String path = "android.resource://" + getPackageName() +
-                "/" + R.raw.pre ;
+                "/" + R.raw.itsy_bitsy_spider ;
 
         videoView.setVideoPath(path);
 
